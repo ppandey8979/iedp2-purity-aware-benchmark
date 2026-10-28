@@ -1,0 +1,15 @@
+# Values mirror the pre-registration. Any change after lock is an amendment (see AMENDMENTS.md).
+global_seed: 20261021
+bootstrap_resamples: 10000
+permutation_resamples: 10000
+rank_stability_resamples: 1000
+alpha: 0.05
+# PROPOSED universe rule (becomes locked with the pre-registration)
+universe:
+  min_expression_unit: TPM          # verify unit per data source
+  min_expression_value: 1
+  min_fraction_samples: 0.20
+  ortholog_table_version: FILL      # name and version, recorded at freeze
+cancers: [PDAC, SKCM, COAD]
+primary_cancer: PDAC
+ap_implementation: sklearn.metrics.average_precision_score

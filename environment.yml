@@ -1,0 +1,17 @@
+# DRAFT. Versions are pinned at the pre-registration lock using `conda env export --no-builds`.
+name: iedp2-benchmark
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - lifelines
+  - matplotlib
+  - seaborn
+  - pyyaml
+  - jupyter
+  - pip

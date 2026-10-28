@@ -1,0 +1,10 @@
+# raw and large data never go in git
+data/raw/
+data/processed/
+*.h5ad
+*.rds
+*.RData
+*.pkl
+.ipynb_checkpoints/
+__pycache__/
+.env
